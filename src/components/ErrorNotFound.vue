@@ -146,16 +146,16 @@
 
 <script>
     export default {
-        
+      data() {
+        return {
+
+        }
+      },
     }
 </script>
 
 <style lang="scss" scoped>
 // You can change the speed of Main Animation in Lines: 80, 88, 96, etc.
-header.prova{
-  display: none;
-}
-
 $p: 12px;
 $easeOutCubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 $easeOutExpo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
@@ -178,7 +178,7 @@ body, html {
 }
 
 body { 
-  background: #121214; 
+  background-color: #121214; 
 }
 
 
@@ -187,8 +187,8 @@ main {
   flex-flow: row wrap;
   align-items: center;
   align-content: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   padding: $p;
   perspective: 1000px;
   

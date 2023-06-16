@@ -1,8 +1,6 @@
 <template>
   <HeaderComponent />
-  <main class="bg-body-secondary">
-    <router-view></router-view>
-  </main>
+  <router-view></router-view>
   <FooterComponent />
 </template>
 
@@ -19,6 +17,7 @@ export default {
       
     }
   }
+  
 }
 </script>
 
