@@ -6,15 +6,19 @@
 
 <script>
 import ErrorNotFound from '../components/ErrorNotFound.vue'
+import { store } from '../store';
 export default {
       components: {
         ErrorNotFound,
       },
       data(){
         return{
-
+          store
         }
-      }
+      },
+      mounted () {
+        store.display_none = true;
+      },
     }
 </script>
 
