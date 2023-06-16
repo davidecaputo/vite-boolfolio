@@ -26,6 +26,10 @@ header{
             border: 1px solid white;
             opacity: 1;
         }
+        &:not(:hover){
+            scale: 1;
+            transition: 0.6s;
+        }
     }
 }
 

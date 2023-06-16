@@ -1,6 +1,6 @@
 <template>
     <footer :class="store.display_none ? 'd-none' : ''">
-        <h1>Ciao</h1>
+        <h1>Footer</h1>
     </footer>
 </template>
 

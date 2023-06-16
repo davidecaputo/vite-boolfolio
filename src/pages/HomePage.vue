@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>Ciao come come</h1>
+        <h1>Homepage</h1>
     </main>
 </template>
 
